@@ -7,7 +7,7 @@
 6. Start new Angular app     : `npm start`
 
 ## Adding bootstrap to your app
-1. Install bootstrap package : `npm install --save bootstrap` (following [these instructions](https://www.techiediaries.com/angular-bootstrap/)
+1. Install bootstrap package : `npm install --save bootstrap` (following [these instructions](https://www.techiediaries.com/angular-bootstrap/))
 2. Do not install jquery or popper. They manipulate the DOM directly and that should only Angular do
 3. Added @import `~bootstrap/dist/css/bootstrap.css` to styles.css
 4. Install ng-bootstrap      : `npm install --save @ng-bootstrap/ng-bootstrap`
