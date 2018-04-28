@@ -18,3 +18,6 @@
 2. Set the default style ext : `ng set defaults.styleExt scss`
 3. Fix in .angular.cli.json  : styles.css => styles.scss and rename this file
 
+## Theming
+Use this [article](https://dzone.com/articles/bootstrap-4-and-angular-a-beginners-guide-to-custo) to add and/or customize bootstrap themes
+
