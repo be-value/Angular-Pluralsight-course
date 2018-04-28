@@ -12,3 +12,9 @@
 3. Added @import `~bootstrap/dist/css/bootstrap.css` to styles.css
 4. Install ng-bootstrap      : `npm install --save @ng-bootstrap/ng-bootstrap`
 5. change app.modulse.ts     : add `import {NgbModule} from '@ng-bootstrap/ng-bootstrap';` and `, NgbModule.forRoot()` to the imports array
+
+## To update the project to use scss
+1. Install Node-sass package : `npm install node-sass --save-dev` (according to [these instructions](https://stackoverflow.com/questions/36220256/angular-cli-sass-options))
+2. Set the default style ext : `ng set defaults.styleExt scss`
+3. Fix in .angular.cli.json  : styles.css => styles.scss and rename this file
+
