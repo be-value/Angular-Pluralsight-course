@@ -69,7 +69,7 @@ export class ProductListComponent implements OnInit {
 
   constructor() {
       this.filteredProducts = this.products;
-      this.listFilter = 'cart';
+      this.listFilter = '';
   }
 
   get listFilter(): string {
@@ -93,5 +93,9 @@ export class ProductListComponent implements OnInit {
 
   toggleImage() {
       this.showImage = !this.showImage;
+  }
+
+  onRatingClicked(message: string): void {
+      this.pageTitle = 'Product List: ' + message;
   }
 }
