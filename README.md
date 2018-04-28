@@ -6,6 +6,10 @@
 5. Install new Angular app   : `npm install`
 6. Start new Angular app     : `npm start`
 
+## Adding components to your app
+1. Generate new component    : `ng g c my-component --flat`
+2. OR Generate anything else : use this [Angular CLI Reference](https://cli.angular.io/reference.pdf)
+
 ## Adding bootstrap to your app
 1. Install bootstrap package : `npm install --save bootstrap` (following [these instructions](https://www.techiediaries.com/angular-bootstrap/))
 2. Do not install jquery or popper. They manipulate the DOM directly and that should only Angular do
