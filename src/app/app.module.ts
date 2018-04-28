@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { WelcomeComponent } from './home/welcome.component';
 import { ProductListComponent } from './products/product-list.component';
 import { ProductDetailComponent } from './products/product-detail.component';
+import { ConvertToSpacesPipe } from './shared/convert-to-spaces.pipe';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { ProductDetailComponent } from './products/product-detail.component';
     AppComponent,
     WelcomeComponent,
     ProductListComponent,
-    ProductDetailComponent
+    ProductDetailComponent,
+    ConvertToSpacesPipe
   ],
   imports: [
     BrowserModule, FormsModule, NgbModule.forRoot()
