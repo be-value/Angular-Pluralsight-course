@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
@@ -21,7 +22,7 @@ import { StarComponent } from './shared/star.component';
     StarComponent
   ],
   imports: [
-    BrowserModule, FormsModule, NgbModule.forRoot()
+    BrowserModule, FormsModule, HttpClientModule, NgbModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
