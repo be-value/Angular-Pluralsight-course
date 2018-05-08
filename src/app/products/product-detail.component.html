@@ -1,6 +1,12 @@
 <div class="card" *ngIf='product'>
-    <h2 class="card-header bg-primary text-light">
-        {{ pageTitle + ': ' + product.productName }}
-    </h2>
-    <div class="card-body">
+  <h2 class="card-header bg-primary text-light">
+    {{ pageTitle + ': ' + product.productName }}
+  </h2>
+  <div class="card-body">
+  </div>
+
+  <div clas='card-footer'>
+    <a class="btn btn-default" (click)='onBack()' style="width: 80px">Back</a>
+  </div>
+
 </div>
